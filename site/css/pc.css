@@ -52,8 +52,15 @@
 .Application{position:relative; height:842px;}
 .Application .col-md-3{ position:relative; z-index:1;width:238px;padding: 15px 15px; border: 1px solid #096DDF; float:left; margin:0 40px;box-shadow: 0px 0px 40px rgba(50,65,165,.2);}
 .Application .col-md-3 h2{margin:10px 0 20px 0; color: #46D8E8}
-.Application .col-md-3.middle{width:280px; margin:560px 89px 15px;}
+.Application .col-md-3.middle{width:280px; margin:500px 89px 15px;}
 .Application .col-md-6{ position:absolute; top:30px; left:362px;}
+.Application02 {position:relative; height:842px;}
+.Application02 .col-md-3{ position:absolute; z-index:1;width:238px;padding: 15px 15px; float:left; box-shadow: 0px 0px 40px rgba(50,65,165,.2);}
+.Application02 .col-md-3 h2{margin:10px 0 20px 0; color: #fff; font-size: 22px}
+.Application02 .col-md-3 p{color:#04B1B8}
+.Application02 .col-md-3.middle{width:280px;}
+.Application02 .col-md-6{position:absolute; top:300px; left:362px;}
+.Application02 .col-md-6 img{width: 548px}
 .mission .features-text{}
 .features-block { margin-top: 40px; overflow:hidden;}
 .features-block .col-lg-6{width:600px; float:left;}
@@ -90,7 +97,7 @@
 .Mentors .team-member h4{border:none; padding-bottom:0; margin-bottom:0; line-height:45px; text-align:center; }
 .Mentors .team-member .blue-txt{line-height:30px;}
 .team{width:1230px; margin:84px auto 90px; padding:20px 0;}
-.team .col-sm-4{width:500px; height:550px; float:left; margin:0 38px 30px;margin-left:65px;box-shadow:0 0 15px rgba(53,101,253,0.2);border:1px solid #096DDF}
+.team .col-sm-4{width:500px; height:520px; float:left; margin:0 38px 30px;margin-left:65px;box-shadow:0 0 15px rgba(53,101,253,0.2);border:1px solid #096DDF}
 .team .col-sm-4 p{ text-align:left; color:#fff}
 .team .col-sm-4 .team-member .blue-txt{
 	display:inline-block;
