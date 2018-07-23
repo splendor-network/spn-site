@@ -7,7 +7,8 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 body {
-  color: #676a6c;
+  color: #fff;
+  background:#0d1641;
   font-family: 'Open Sans', helvetica, arial, sans-serif;
 }
 input,textarea{appearance: none; -webkit-appearance: none;ã€€-moz-appearance:none; }
@@ -15,7 +16,7 @@ span.navy {
   color: #1ab394;
 }
 p.text-color {
-  color: #676a6c;
+  color: #fff;
 }
 a.navy-link {
   color: #1ab394;
@@ -25,7 +26,7 @@ a.navy-link:hover {
   color: #17a185;
 }
 section p {
-  color: #919daf;
+  color: #fff;
   font-size: 14px;
   line-height:21px;
 }
@@ -41,7 +42,7 @@ h1 {
   font-size: 30px;
   font-weight: 200;
 }
-h1.g-title{color:#2840af; font-size:22px; font-weight:bold;}
+h1.g-title{color:#04B1B8; font-size:22px; font-weight:bold;}
 h1.g-title small{color:#252755; font-weight:bold;}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -113,10 +114,10 @@ h1.g-title small{color:#252755; font-weight:bold;}
   transition: all 0.3s ease-in-out 0s;
 }
 .navbar-scroll.navbar-default .nav li a {
-  color: #333;
+  color: #fff;
 }
 .navbar-scroll.navbar-default .nav li a:hover {
-  color: #ff904a;
+  color: #02c5d5;
 }
 .navbar-wrapper .navbar.navbar-scroll {
   padding-top: 0;
@@ -138,10 +139,13 @@ h1.g-title small{color:#252755; font-weight:bold;}
   height: auto;
 }
 .nav>li{float:left;}
-.navbar-default .navbar-collapse, .navbar-default .navbar-form{background-color:rgba(232,242,254,0.5);}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{}
 .navbar-default.navbar-scroll{ background: none;}
 .navbar-wrapper .navbar.navbar-scroll{padding:0; }
-.navbar-wrapper .navbar-header{background:#fff;}
+.navbar-wrapper .navbar-header{background:#193082;}
+.navbar-collapse {
+  background: rgba(57,88,196,0.8);
+}
 @media (max-width: 768px){
 .navbar-default {
     background: none;
@@ -175,9 +179,9 @@ h1.g-title small{color:#252755; font-weight:bold;}
 .banner{color:#171717; font-size:24px; padding:18% 0 9%; line-height:30px; text-align:center; margin-top:70px;}
 .banner .title{margin-bottom:3%;}
 .banner .title span{color:#2840af;}
-.banner .title span.txt{color:#171717; font-size:21px;}
-.banner .small-title{color:#919daf; font-size:12px;}
-.banner .small-title a{width:120px; height:40px; border-radius:40px; background:#4f73f6; font-size:15px; color:#fff; display:inline-block; text-align:center; line-height:41px; text-decoration:none; margin:10px auto 0;}
+.banner .title span.txt{color:#fff; font-size:21px;}
+.banner .small-title{color:#02c5d5; font-size:12px;}
+.banner .small-title a{width:120px; height:40px; border-radius:40px; background:#193082; font-size:15px; color:#fff; display:inline-block; text-align:center; line-height:41px; text-decoration:none; margin:10px auto 0;}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
@@ -294,7 +298,7 @@ h1.g-title small{color:#252755; font-weight:bold;}
   font-size: 18px;
   letter-spacing: -1px;
   font-weight: 600;
-  color:#252755;
+  color:#fff;
   margin:10px 0 20px 0;
 }
 .services p{ text-align:left;} 
@@ -319,7 +323,7 @@ h1.g-title small{color:#252755; font-weight:bold;}
 .features h2 {
   font-size: 15px;
   margin-top: 5px;
-  color:#252755;
+  color:#fff;
   font-weight:bold;
 }
 .features-text-alone {
@@ -354,7 +358,7 @@ h1.g-title small{color:#252755; font-weight:bold;}
   margin: auto;
 }
 .team-member h4{
-	color:#252755;
+	color:#fff;
 	font-size:22px;
 	border-bottom:1px solid #eceef6;
 	padding-bottom:10px;
@@ -489,10 +493,12 @@ fieldset[disabled] .btn-primary.active {
   .navbar-wrapper .container {
     padding-right: 15px;
     padding-left: 15px;
+    background: #193082;
   }
   .navbar-wrapper .navbar {
     padding-right: 0;
     padding-left: 0;
+    border-color: transparent;
   }
   /* The navbar becomes detached from the top, so we round the corners */
   .navbar-wrapper .navbar {
@@ -535,7 +541,7 @@ fieldset[disabled] .btn-primary.active {
     color: inherit;
   }
   .navbar-default .nav li a {
-    color: #676a6c;
+    color: #fff;
   }
   .navbar-default .nav li a:hover {
     color: #1ab394;
@@ -838,21 +844,21 @@ fieldset[disabled] .btn-primary.active {
 .footer{background:#15184f; padding:10% 0;}
 .footer .list-inline img{width:100%; height:auto;}
 .footer .list-inline li{width:40px;}
-.testimonials-text{background:url(../images/time.png) no-repeat center; background-size:auto 100%; overflow:hidden; margin-top:20px;}
-.testimonials-text .left{ position:relative; width:50%; border-right:2px solid #5c9afd;}
+.testimonials-text{background-size:auto 100%; overflow:hidden; margin-top:20px;}
+.testimonials-text .left{ position:relative; width:50%; border-right:2px solid #04B1B8;;}
 .testimonials-text .right{ position:relative;width:50%;}
-.testimonials-text h2{color:#252658; font-weight:bold; font-size:14px; margin-top:0;}
+.testimonials-text h2{color:#fff; font-weight:bold; font-size:14px; margin-top:0; text-align: center}
 .testimonials-text ul{padding-left:0;}
-.testimonials-text .left li ,.testimonials-text .right li{ position:relative; background:#fff;box-shadow:-2px 6px 5px rgba(53,101,253,0.1); padding:5px 0px 5px 5px; margin:0 5px 15px 0;}
+.testimonials-text .left li ,.testimonials-text .right li{list-style: none; position:relative; border: 1px solid #096DDF;box-shadow:-2px 6px 5px rgba(53,101,253,0.1); padding:5px 0px 5px 5px; margin:0 5px 15px 0;}
 .testimonials-text .left li img,.testimonials-text .right li img{ position:absolute;  width:15px; height:15px; margin:0;}
 
-.testimonials-text .left li img{right:-28px; top:30%;}
+.testimonials-text .left li img{right:-30px; top:30%;}
 .testimonials-text .left li img.arrow{right:-7px; width:8px; height:auto; top:30%;}
 .testimonials-text .left li{margin-right:20px;}
 .testimonials-text .right ul{margin-top:50px;}
 .testimonials-text .right li{margin-left:20px;}
-.testimonials-text .right li img{left:-28px; top:30%;}
-.testimonials-text .right li img.arrow{left:-7px; width:8px; height:auto; top:30%;}
+.testimonials-text .right li img{left:-30px; top:30%;}
+.testimonials-text .right li img.arrow{left:-7px; width:8px; height:auto; top:50%;}
 /*è½®æ’­*/
 .swiper-container {
   width: 100%;

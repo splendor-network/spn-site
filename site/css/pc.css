@@ -97,7 +97,7 @@
 .Mentors .team-member h4{border:none; padding-bottom:0; margin-bottom:0; line-height:45px; text-align:center; }
 .Mentors .team-member .blue-txt{line-height:30px;}
 .team{width:1230px; margin:84px auto 90px; padding:20px 0;}
-.team .col-sm-4{width:500px; height:520px; float:left; margin:0 38px 30px;margin-left:65px;box-shadow:0 0 15px rgba(53,101,253,0.2);border:1px solid #096DDF}
+.team .col-sm-4{width:500px; height:560px; float:left; margin:0 38px 30px;margin-left:65px;box-shadow:0 0 15px rgba(53,101,253,0.2);border:1px solid #096DDF}
 .team .col-sm-4 p{ text-align:left; color:#fff}
 .team .col-sm-4 .team-member .blue-txt{
 	display:inline-block;
