@@ -60,8 +60,6 @@ h1.g-title small{color:#252755; font-weight:bold;}
   padding-left: 0;
 }
 .navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
 }
 .navbar-default.navbar-scroll {
   background-color: none;
@@ -85,14 +83,14 @@ h1.g-title small{color:#252755; font-weight:bold;}
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover {
   background: transparent;
-  color: #ff904a;
+  color: #fff;
 }
 .navbar-default .navbar-nav > li > a:hover {
-  color: #ff904a;
+  color: #fff;
 }
 .navbar-default .navbar-nav > .active > a:focus {
   background: transparent;
-  color: #ff904a;
+  color: #fff;
 }
 .navbar-default.navbar-scroll .navbar-nav > .active > a:focus {
   background: transparent;
@@ -154,7 +152,7 @@ h1.g-title small{color:#252755; font-weight:bold;}
 }
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background: none;}
-.navbar-default .navbar-toggle{border: none;}
+.navbar-default .navbar-toggle{border: none; margin-top: 14px;}
 /* BACKGROUNDS SLIDER
 -------------------------------------------------- */
 .header-back {
@@ -529,7 +527,6 @@ fieldset[disabled] .btn-primary.active {
     font-size: 28px;
   }
   .navbar.navbar-scroll .navbar-brand {
-    margin-top: 6px;
   }
   .navbar-default {
     background-color: none;
@@ -559,7 +556,6 @@ fieldset[disabled] .btn-primary.active {
     padding: 20px 10px;
   }
   .navbar .navbar-brand {
-    margin-top: 6px;
     border-radius: 5px;
     font-size: 12px;
     padding: 10px;
@@ -837,11 +833,11 @@ fieldset[disabled] .btn-primary.active {
 }
 #Application .col-md-3{ background:#fff; padding:15px 15px;}
 #QA .features-text{margin-bottom:20px;}
-.inp-text{width:100%; display:block; height:50px; background:#fff;border:1px solid #f9f9f9;box-shadow:0 5px 15px rgba(53,101,253,0); }
+.inp-text{width:100%; display:block; height:50px;background: #0E337A;border: 1px solid #096DDF;box-shadow:0 5px 15px rgba(53,101,253,0); color:#fff}
 .contact .form-group{ box-shadow:0 5px 15px rgba(53,101,253,0.1);}
 .btn-sign{width:120px; height:40px; display:block; border:none; border-radius:40px; background:#ff6000; box-shadow:0 5px 15px rgba(255,135,81,0.4); color:#fff; font-weight:bold; margin:0 auto;}
 .btn-sign:hover{color:#fff;}
-.footer{background:#15184f; padding:10% 0;}
+.footer{background:#15184f;}
 .footer .list-inline img{width:100%; height:auto;}
 .footer .list-inline li{width:40px;}
 .testimonials-text{background-size:auto 100%; overflow:hidden; margin-top:20px;}
