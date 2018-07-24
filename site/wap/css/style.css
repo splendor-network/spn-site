@@ -130,7 +130,6 @@ h1.g-title small{color:#252755; font-weight:bold;}
   padding: 20px 10px;
 }
 .navbar.navbar-scroll .navbar-brand {
-  margin-top: 15px;
   border-radius: 5px;
   font-size: 12px;
   padding: 10px;
@@ -324,6 +323,10 @@ h1.g-title small{color:#252755; font-weight:bold;}
   color:#fff;
   font-weight:bold;
 }
+.features P{
+  padding: 0;
+  margin: 0;
+}
 .features-text-alone {
   margin: 40px 0;
 }
@@ -345,10 +348,9 @@ h1.g-title small{color:#252755; font-weight:bold;}
 }
 .team-member {
 	width:100%;
-	margin:-63px auto 0;
+    margin:20px auto 0;
    text-align: center;
    padding: 15px;
-   height:492px;
    box-shadow:0 0 25px rgba(53,101,253,0.2);
 }
 .team-member img {
@@ -356,13 +358,19 @@ h1.g-title small{color:#252755; font-weight:bold;}
 }
 .team-member h4{
 	color:#fff;
-	font-size:22px;
+	font-size:18px;
 	border-bottom:1px solid #eceef6;
 	padding-bottom:10px;
 }
+.team-member p{
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font-size: 12px;
+}
 .team-member .blue-txt{
-	color:#2840af;
-	font-size:18px;
+	color:#1ab394;
+	font-size:12px;
 }
 .Mentors .team-member{width:100%; height:auto; background:none;box-shadow:0 0 0 rgba(53,101,253,0);}
 .Mentors .team-member h4{border:none; padding-bottom:0; margin-bottom:0; line-height:35px; }
@@ -379,8 +387,7 @@ h1.g-title small{color:#252755; font-weight:bold;}
   background: #17a185;
 }
 .img-small {
-  height: 88px;
-  width: 88px;
+  width: 60px;
 }
 .pricing-plan {
   margin: 20px 30px 0 30px;
@@ -775,7 +782,7 @@ fieldset[disabled] .btn-primary.active {
   margin-bottom: 20px;
 }
 .m-b-lg {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .m-b-xl {
   margin-bottom: 40px;
@@ -881,9 +888,10 @@ fieldset[disabled] .btn-primary.active {
 }
 .swiper-slide {
 	background:none;
-  	width: 70%;
-	height:469px;
+  	width: 100%;
 }
+.email{height:50px; color:#fff; /font-size:18px; line-height:50px; text-align: center; background: #0E337A;border: 1px solid #096DDF; margin-bottom: 20px}
+.email img{ height: 30px;margin-right: 10px}
 .swiper-pagination-bullet{width:10px; height:10px; background:#fff; border:2px solid #bad1e7; opacity:1;}
 .swiper-pagination-bullet-active{width:10px; height:10px; background:#fff; border:3px solid #3a9eff;}
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{bottom:0;}
