@@ -38,7 +38,7 @@ h2 {
 .code-box {
   background: url(../images/code.png) no-repeat;
   background-position-x: calc(100% - 90px);
-  background-size: 100px;
+  background-size: 120px;
 }
 .container{ overflow:hidden;}
 /*头部*/
