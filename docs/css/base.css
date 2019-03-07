@@ -32,7 +32,14 @@ h2 {
     margin: 5px 0 10px 0;
     color: #02C5D5;;
 }
-.wrap1200 {width:1200px; margin:0 auto; overflow:hidden;}
+.wrap1200 {
+  width:1200px; margin:0 auto; overflow:hidden;
+}
+.code-box {
+  background: url(../images/code.png) no-repeat;
+  background-position-x: calc(100% - 90px);
+  background-size: 100px;
+}
 .container{ overflow:hidden;}
 /*头部*/
 .header{width:100%; min-width:1200px; overflow:hidden;background:#193082;}
